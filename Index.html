@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mircharam Sweets | Traditional Sweets & Food in Hardoi</title>
+  <meta name="description" content="Discover Mircharam Sweets in Hardoi — traditional Indian sweets, food and flavours served across generations.">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Mircharam Sweets Home">
+        <svg class="brand-logo-svg" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mircharam Logo">
+          <path d="M26 14C23 7 14 6 10 11C6 16 11 25 21 27C35 30 43 23 48 20C40 24 33 26 24 23C16 20 13 13 16 9C19 5 26 7 28 11L26 14Z" fill="#2E7D32"/>
+          <path d="M22 25C38 27 65 31 82 18C83 17 76 25 61 31C43 38 27 34 18 29C15 27 18 24 22 25Z" fill="#C62828"/>
+          <text x="86" y="30" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="700" letter-spacing="3" fill="#7A1F2B">MIRCHARAM</text>
+          <text x="88" y="44" font-family="'Manrope', sans-serif" font-size="7.5" font-weight="600" letter-spacing="4" fill="#5B4030">SWEETS &amp; RESTAURANT</text>
+        </svg>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#story" class="nav-link">Our Story</a>
+        <a href="#signature" class="nav-link">Signature Mithai</a>
+        <a href="#menu" class="nav-link">Menu Preview</a>
+        <a href="#experience" class="nav-link">The Experience</a>
+        <a href="#gallery" class="nav-link">Social</a>
+        <a href="#visit" class="nav-link">Visit Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#visit" class="btn btn-outline">Visit Hardoi</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+      <nav class="mobile-nav-list">
+        <a href="#story" class="mobile-nav-link">Our Story</a>
+        <a href="#signature" class="mobile-nav-link">Signature Mithai</a>
+        <a href="#menu" class="mobile-nav-link">Menu Preview</a>
+        <a href="#experience" class="mobile-nav-link">The Experience</a>
+        <a href="#gallery" class="mobile-nav-link">Social</a>
+        <a href="#visit" class="mobile-nav-link">Visit Us</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <p class="tagline">A Touch of Spice &bull; A Taste of Sweetness</p>
+        <span class="location-badge">Cinema Rd, Hardoi, UP</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>EST. IN HARDOI &bull; SERVING GENERATIONS</span>
+          </div>
+          <h1 class="hero-heading">
+            A Legacy of Taste,<br>
+            <em>Crafted for Generations.</em>
+          </h1>
+          <p class="hero-description">
+            Traditional Indian sweets, authentic recipes, and cherished everyday food flavours prepared fresh daily at Mircharam Sweets &amp; Restaurant.
+          </p>
+          <div class="hero-actions">
+            <a href="#signature" class="btn btn-primary">Explore Mithai</a>
+            <a href="#story" class="btn btn-text">Our Heritage &rarr;</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Years of Heritage</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Vegetarian Preparation</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">Hardoi</span>
+              <span class="stat-label">Heart of Uttar Pradesh</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-frame">
+            <img 
+              src="assets/images/hero.webp" 
+              alt="Artisanal Indian Sweets presentation at Mircharam Sweets" 
+              class="hero-img verified-photo"
+              data-product="Signature Festive Ghewar"
+            >
+            <div class="image-caption">
+              <span>Authentic Festive Craft</span>
+              <strong>Handcrafted Traditional Mithai</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heritage / Story Section -->
+    <section class="story-section" id="story">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-visual">
+            <div class="story-frame">
+              <img 
+                src="assets/images/restaurant.webp" 
+                alt="Mircharam Sweets dining and sweet house in Hardoi" 
+                class="story-img verified-photo"
+                data-product="Mircharam Sweets Outlet"
+                loading="lazy"
+              >
+            </div>
+            <div class="heritage-badge">
+              <span class="years">50+</span>
+              <span class="label">Years of Sweetness</span>
+            </div>
+          </div>
+
+          <div class="story-content">
+            <span class="section-subtitle">OUR HERITAGE</span>
+            <h2 class="section-title">A Taste That Has Been Passed Down Through Generations</h2>
+            <p class="story-lead">
+              "A Touch of Spice, A Taste of Sweetness" &mdash; serving families and festive moments in Hardoi with trusted recipes and fresh daily preparation.
+            </p>
+            <p class="story-body">
+              Rooted in the vibrant food culture of Hardoi, Mircharam Sweets represents more than just a sweet counter. It is a shared tradition where festive celebrations like Raksha Bandhan, Janmashtami, and everyday sweet cravings find authentic, uncompromising taste.
+            </p>
+
+            <ul class="story-pillars">
+              <li>
+                <div class="pillar-bullet"></div>
+                <div>
+                  <strong>Pure Ingredients &amp; Time-Honoured Recipes</strong>
+                  <p>Prepared daily following classic North Indian sweetmaking techniques.</p>
+                </div>
+              </li>
+              <li>
+                <div class="pillar-bullet"></div>
+                <div>
+                  <strong>Festive Centrepiece</strong>
+                  <p>A destination for seasonal Ghewar, dry fruit creations, and regional delicacies.</p>
+                </div>
+              </li>
+              <li>
+                <div class="pillar-bullet"></div>
+                <div>
+                  <strong>Sweets &amp; Savouries Under One Roof</strong>
+                  <p>From milk confections to comforting savouries, chaat, and momos.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Mithai Showcase -->
+    <section class="signature-section" id="signature">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-subtitle">HANDCRAFTED PURITY</span>
+          <h2 class="section-title">The Sweetest Side of Mircharam</h2>
+          <p class="section-description">
+            Discover our curated selection of classic confections made with traditional craftsmanship.
+          </p>
+        </div>
+
+        <div class="product-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Specialties</button>
+          <button class="filter-btn" data-filter="traditional">Festive &amp; Traditional</button>
+          <button class="filter-btn" data-filter="milk">Milk-Based Sweets</button>
+          <button class="filter-btn" data-filter="savouries">Savouries &amp; Snacks</button>
+        </div>
+
+        <!-- Central Product Data Target Grid -->
+        <div class="product-grid" id="productGrid">
+          <!-- Dynamically populated via script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Categorization Preview -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="menu-banner">
+          <div class="menu-banner-content">
+            <span class="section-subtitle light">CULINARY VARIETY</span>
+            <h2 class="section-title light">More Than Mithai</h2>
+            <p class="menu-lead light">
+              Beyond pure ghee sweets, Mircharam serves familiar Indian comfort favourites, evening snacks, and quick street bites.
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-categories-grid">
+          <div class="menu-cat-card">
+            <div class="cat-number">01</div>
+            <h3>Traditional Sweets</h3>
+            <p>Festive Ghewar, Cham Cham, Kesar Rasmalai, and premium Dry Fruit confections crafted daily.</p>
+            <span class="cat-tag">Pure Veg</span>
+          </div>
+
+          <div class="menu-cat-card">
+            <div class="cat-number">02</div>
+            <h3>Chaat &amp; Savouries</h3>
+            <p>Crisp samosas, savoury bites, and authentic local snacks paired with fresh chutneys.</p>
+            <span class="cat-tag">Fresh Daily</span>
+          </div>
+
+          <div class="menu-cat-card">
+            <div class="cat-number">03</div>
+            <h3>Street Food &amp; Momos</h3>
+            <p>Popular steamed and fried momos accompanied by our signature fiery dipping sauce.</p>
+            <span class="cat-tag">Local Favourite</span>
+          </div>
+
+          <div class="menu-cat-card">
+            <div class="cat-number">04</div>
+            <h3>North Indian Comfort</h3>
+            <p>Wholesome vegetarian family meals and North Indian culinary staples.</p>
+            <span class="cat-tag">Dine-In &amp; Takeaway</span>
+          </div>
+        </div>
+
+        <div class="menu-footer-cta">
+          <p>Looking for catering orders or custom festive gift packaging?</p>
+          <a href="#visit" class="btn btn-primary">Enquire at Our Counter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Food Experience Section -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="experience-layout">
+          <div class="experience-content">
+            <span class="section-subtitle">THE DINING TRADITION</span>
+            <h2 class="section-title">An Authentic Taste of Hardoi</h2>
+            <p>
+              Whether it is a family gathering after Sunday temple visits, festive gifting during Diwali and Rakhi, or sharing evening momos and tea with friends, Mircharam has anchored everyday memories in Hardoi for over five decades.
+            </p>
+            <blockquote class="brand-quote">
+              "A Touch of Spice &bull; A Taste of Sweetness"
+            </blockquote>
+          </div>
+
+          <div class="experience-gallery">
+            <div class="exp-photo-box main">
+              <img 
+                src="assets/images/momo.webp" 
+                alt="Fresh steamed momos with spicy chutney at Mircharam Sweets" 
+                class="exp-photo verified-photo"
+                data-product="Steamed Momos"
+                loading="lazy"
+              >
+            </div>
+            <div class="exp-photo-box secondary">
+              <img 
+                src="assets/images/samosa.webp" 
+                alt="Crispy golden samosas at Mircharam Sweets" 
+                class="exp-photo verified-photo"
+                data-product="Crispy Samosa"
+                loading="lazy"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof & Instagram Feed -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-subtitle">CONNECT WITH US</span>
+          <h2 class="section-title">From Our Kitchen to Your Feed</h2>
+          <p class="section-description">
+            Join our online community in Hardoi. Follow our seasonal campaigns, fresh creations, and festive updates on Instagram.
+          </p>
+          <a href="https://www.instagram.com/mircharam_sweets" target="_blank" rel="noopener noreferrer" class="instagram-handle">
+            @mircharam_sweets
+          </a>
+        </div>
+
+        <div class="social-grid">
+          <div class="social-card">
+            <div class="social-card-inner">
+              <img 
+                src="assets/images/ghewar.webp" 
+                alt="Mircharam Sweets Ghewar post" 
+                class="social-photo verified-photo"
+                data-product="Festive Ghewar Post"
+                loading="lazy"
+              >
+              <div class="social-overlay">
+                <span>View on Instagram &rarr;</span>
+              </div>
+            </div>
+            <div class="social-card-meta">Festive Ghewar Celebrations</div>
+          </div>
+
+          <div class="social-card">
+            <div class="social-card-inner">
+              <img 
+                src="assets/images/rasmalai.webp" 
+                alt="Mircharam Sweets Kesar Rasmalai post" 
+                class="social-photo verified-photo"
+                data-product="Kesar Rasmalai Post"
+                loading="lazy"
+              >
+              <div class="social-overlay">
+                <span>View on Instagram &rarr;</span>
+              </div>
+            </div>
+            <div class="social-card-meta">Fresh Kesar Rasmalai</div>
+          </div>
+
+          <div class="social-card">
+            <div class="social-card-inner">
+              <img 
+                src="assets/images/momo.webp" 
+                alt="Mircharam Sweets Momos post" 
+                class="social-photo verified-photo"
+                data-product="Street Food Momos Post"
+                loading="lazy"
+              >
+              <div class="social-overlay">
+                <span>View on Instagram &rarr;</span>
+              </div>
+            </div>
+            <div class="social-card-meta">Classic Street Food Momos</div>
+          </div>
+        </div>
+
+        <div class="gallery-cta">
+          <a href="https://www.instagram.com/mircharam_sweets" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            Follow @mircharam_sweets
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit Us / Location Section -->
+    <section class="visit-section" id="visit">
+      <div class="container">
+        <div class="visit-grid">
+          <div class="visit-info">
+            <span class="section-subtitle">VISIT US</span>
+            <h2 class="section-title">Mircharam Sweets &amp; Restaurant</h2>
+            <p class="visit-lead">We welcome you to experience our sweets and dishes fresh over the counter in Hardoi.</p>
+
+            <div class="visit-details">
+              <div class="detail-block">
+                <span class="detail-label">LOCATION &amp; ADDRESS</span>
+                <p class="detail-val">
+                  Cinema Road, Near Ved Mandir Area / Mircharam Wali Gali<br>
+                  Hardoi, Uttar Pradesh &ndash; 241001, India
+                </p>
+              </div>
+
+              <div class="detail-block">
+                <span class="detail-label">OFFERINGS</span>
+                <p class="detail-val">Pure Vegetarian &bull; Traditional Sweets &bull; Restaurant Dining &bull; Takeaway</p>
+              </div>
+
+              <div class="detail-block">
+                <span class="detail-label">SPECIAL FESTIVE ORDERS</span>
+                <p class="detail-val">Available for Raksha Bandhan, Janmashtami, Diwali &amp; Special Events.</p>
+              </div>
+            </div>
+
+            <div class="visit-actions">
+              <a href="https://maps.google.com/?q=Mircharam+Sweets+Hardoi" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Get Directions
+              </a>
+              <a href="https://www.instagram.com/mircharam_sweets" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                Contact on Instagram
+              </a>
+            </div>
+          </div>
+
+          <div class="visit-card">
+            <div class="visit-card-header">
+              <span class="badge-heritage">Serving for 50+ Years</span>
+              <h3>Hardoi Flagship Store</h3>
+            </div>
+            <div class="visit-card-body">
+              <div class="trust-indicator">
+                <span class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                <span class="rating-text">Trusted by generations across Hardoi</span>
+              </div>
+              <p class="counter-notice">
+                Fresh batches of milk confections, snacks, and sweets arrive at our counters every morning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Luxury Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">MIRCHARAM</span>
+          <span class="footer-sub">SWEETS &amp; RESTAURANT</span>
+          <p class="footer-tagline">"A Touch of Spice &bull; A Taste of Sweetness"</p>
+        </div>
+
+        <nav class="footer-nav">
+          <div class="footer-col">
+            <span class="col-title">NAVIGATION</span>
+            <a href="#hero">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#signature">Signature Mithai</a>
+            <a href="#menu">Menu Categories</a>
+          </div>
+
+          <div class="footer-col">
+            <span class="col-title">LOCATION</span>
+            <p>Cinema Road, Hardoi</p>
+            <p>Uttar Pradesh, India</p>
+            <a href="https://www.instagram.com/mircharam_sweets" target="_blank" rel="noopener noreferrer">Instagram Profile</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="currentYear"></span> Mircharam Sweets. All rights reserved. Hardoi, Uttar Pradesh.
+        </p>
+        <p class="disclaimer">Official brand concept website proposal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
